@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>graphicdesigngeek.com</title>
+    <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
+    <link href="https://graphicdesigngeek.com" />
+    <updated>2026-06-02T20:26:38-04:00</updated>
+    <author>
+        <name>admin</name>
+    </author>
+    <id>https://graphicdesigngeek.com</id>
+
+    <entry>
+        <title>notes of a techno hippie</title>
+        <author>
+            <name>admin</name>
+        </author>
+        <link href="https://graphicdesigngeek.com/notes-of-a-techno-hippie.html"/>
+        <id>https://graphicdesigngeek.com/notes-of-a-techno-hippie.html</id>
+        <media:content url="https://graphicdesigngeek.com/media/posts/1/animazingxl_v10_950369502228440_00001_.png" medium="image" />
+
+        <updated>2026-06-02T20:23:20-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://graphicdesigngeek.com/media/posts/1/animazingxl_v10_950369502228440_00001_.png" alt="" />
+                    I will be using this site to keep and organise things that i need for projects that i know will be useful for other and&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://graphicdesigngeek.com/media/posts/1/animazingxl_v10_950369502228440_00001_.png" class="type:primaryImage" alt="" /></p>
+                <p>I will be using this site to keep and organise things that i need for projects that i know will be useful for other and myself as well after months have passed and i need to circle back to something.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

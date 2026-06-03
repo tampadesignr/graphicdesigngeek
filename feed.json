@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "graphicdesigngeek.com",
+    "description": "",
+    "home_page_url": "https://graphicdesigngeek.com",
+    "feed_url": "https://graphicdesigngeek.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "admin"
+    },
+    "items": [
+        {
+            "id": "https://graphicdesigngeek.com/notes-of-a-techno-hippie.html",
+            "url": "https://graphicdesigngeek.com/notes-of-a-techno-hippie.html",
+            "title": "notes of a techno hippie",
+            "summary": "I will be using this site to keep and organise things that i need for projects that i know will be useful for other and&hellip;",
+            "content_html": "<p>I will be using this site to keep and organise things that i need for projects that i know will be useful for other and myself as well after months have passed and i need to circle back to something.</p>",
+            "image": "https://graphicdesigngeek.com/media/posts/1/animazingxl_v10_950369502228440_00001_.png",
+            "author": {
+                "name": "admin"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-06-02T20:23:20-04:00",
+            "date_modified": "2026-06-02T20:26:38-04:00"
+        }
+    ]
+}
