@@ -10,11 +10,28 @@
     },
     "items": [
         {
+            "id": "https://graphicdesigngeek.com/how-to-unpin-all-nodes-in-comfyui-workflow.html",
+            "url": "https://graphicdesigngeek.com/how-to-unpin-all-nodes-in-comfyui-workflow.html",
+            "title": "how to unpin all nodes in comfyui workflow",
+            "summary": "Based on the docs, the “P” hotkey is designed to pin/unpin data for a single selected node [docs.n8n.io]( Keyboard shortcuts | n8n Docs ). For&hellip;",
+            "content_html": "<p>Based on the docs, the “P” hotkey is designed to pin/unpin data for a single selected node [docs.n8n.io]( <a href=\"https://docs.n8n.io/keyboard-shortcuts/\" class=\"inline-onebox\">Keyboard shortcuts | n8n Docs</a> ). For multiple nodes, you’ll need to unpin them individually since bulk operations aren’t supported via shortcuts.</p>\n<p>A workaround:</p>\n<p>1. Use “Ctrl+A” to select all nodes</p>\n<p>2. Right-click any node → choose “Pin Data” from the context menu to toggle pinned state for all selected nodes</p>\n<p>https://community.n8n.io/t/unpin-all-nodes-p-doesnt-work/217495</p>",
+            "image": "https://graphicdesigngeek.com/media/posts/2/anima40and7_718854263592837_00001_.png",
+            "author": {
+                "name": "admin"
+            },
+            "tags": [
+                   "comfyui workflow",
+                   "comfyui"
+            ],
+            "date_published": "2026-06-17T18:45:05-04:00",
+            "date_modified": "2026-06-17T18:47:20-04:00"
+        },
+        {
             "id": "https://graphicdesigngeek.com/notes-of-a-techno-hippie.html",
             "url": "https://graphicdesigngeek.com/notes-of-a-techno-hippie.html",
             "title": "notes of a techno hippie",
             "summary": "I will be using this site to keep and organise things that i need for projects that i know will be useful for others and&hellip;",
-            "content_html": "<p>I will be using this site to keep and organise things that i need for projects that i know will be useful for others and myself as well... so when... after months have passed and i need to circle back to something. Guess what it will be here with a tag and easy to find.</p>",
+            "content_html": "<p class=\"copy-text\">I will be using this site to keep and organise things that i need for projects that i know will be useful for others and myself as well... so when... after months have passed and i need to circle back to something. Guess what it will be here with a tag and easy to find.</p>",
             "image": "https://graphicdesigngeek.com/media/posts/1/animazingxl_v10_950369502228440_00001_.png",
             "author": {
                 "name": "admin"
@@ -22,7 +39,7 @@
             "tags": [
             ],
             "date_published": "2026-06-02T20:23:20-04:00",
-            "date_modified": "2026-06-02T20:36:49-04:00"
+            "date_modified": "2026-06-02T20:55:24-04:00"
         }
     ]
 }
