@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-07-04T16:45:27-04:00</updated>
+    <updated>2026-07-04T17:11:29-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -50,6 +50,10 @@ foreach ($chunk in $chunks) {
 <p>then open powershell in folder with the .\\samplename.ps1 file you created</p>
 <p>and run</p>
 <pre class="language-powershell"><code>.\\samplename.ps1</code></pre>
+<p>all images used on this site are from</p>
+<p><a href="https://civitai.red/user/mystifying">https://civitai.red/user/mystifying</a></p>
+<p>this image uses this model:</p>
+<p><a href="https://civitai.red/models/2270685/animazingxl">https://civitai.red/models/2270685/animazingxl</a></p>
 <p> </p>
             ]]>
         </content>
