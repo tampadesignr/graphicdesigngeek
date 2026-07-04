@@ -14,7 +14,7 @@
             "url": "https://graphicdesigngeek.com/make-a-folder-of-prompts-from-a-simple-txt-file.html",
             "title": "make a folder of prompts from a simple txt file",
             "summary": "$sourceFile = \"C:\\Users\\username\\Desktop\\text\\weird.txt\" $delimiter = \"\\n\" $splitFilePrefix = \"C:\\Users\\username\\Desktop\\weird1\\weird_\" $counter = 1 $content = Get-Content -Path $sourceFile -Raw $chunks = $content -split $delimiter foreach ($chunk&hellip;",
-            "content_html": "<pre class=\"language-powershell\"><code>$sourceFile = \"C:\\Users\\username\\Desktop\\text\\weird.txt\"\n$delimiter = \"\\n\"\n$splitFilePrefix = \"C:\\Users\\username\\Desktop\\weird1\\weird_\"\n$counter = 1\n$content = Get-Content -Path $sourceFile -Raw\n$chunks = $content -split $delimiter\n\nforeach ($chunk in $chunks) {\n    $fileName = $splitFilePrefix + $counter.ToString(\"000\")+\".txt\"\n    $chunk | Set-Content -Path $fileName\n    $counter++\n}</code></pre>\n<p>this works assuming that you have 1 prompt per line with \\n a line break </p>\n<p>the script will go line by line and make a txt file for each line in the txt file</p>\n<p>put this code above in a txt file, rename the txt file to anything and change the file from samplename.txt to samplename.psl</p>\n<p>then open powershell in folder with the .\\\\samplename.ps1 file you created</p>\n<p>and run</p>\n<pre class=\"language-powershell\"><code>.\\\\samplename.ps1</code></pre>\n<p> </p>",
+            "content_html": "<pre class=\"language-powershell\"><code>$sourceFile = \"C:\\Users\\username\\Desktop\\text\\weird.txt\"\n$delimiter = \"\\n\"\n$splitFilePrefix = \"C:\\Users\\username\\Desktop\\weird1\\weird_\"\n$counter = 1\n$content = Get-Content -Path $sourceFile -Raw\n$chunks = $content -split $delimiter\n\nforeach ($chunk in $chunks) {\n    $fileName = $splitFilePrefix + $counter.ToString(\"000\")+\".txt\"\n    $chunk | Set-Content -Path $fileName\n    $counter++\n}</code></pre>\n<p>this works assuming that you have 1 prompt per line with \\n a line break </p>\n<p>the script will go line by line and make a txt file for each line in the txt file</p>\n<p>put this code above in a txt file, rename the txt file to anything and change the file from samplename.txt to samplename.psl</p>\n<p>$sourceFile = location and name of file to break up into many files</p>\n<p>$delimiter = the way for the code to know when to go to next line</p>\n<p>$splitFilePrefix = folder location and prefix for each new file which will be numbered</p>\n<p>then open powershell in folder with the .\\\\samplename.ps1 file you created</p>\n<p>and run</p>\n<pre class=\"language-powershell\"><code>.\\\\samplename.ps1</code></pre>\n<p> </p>",
             "image": "https://graphicdesigngeek.com/media/posts/3/new-anima-test_832486031203768_00001_.png",
             "author": {
                 "name": "admin"
@@ -23,7 +23,7 @@
                    "powershell"
             ],
             "date_published": "2026-07-04T16:34:02-04:00",
-            "date_modified": "2026-07-04T16:38:02-04:00"
+            "date_modified": "2026-07-04T16:45:27-04:00"
         },
         {
             "id": "https://graphicdesigngeek.com/how-to-unpin-all-nodes-in-comfyui-workflow.html",

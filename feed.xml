@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-07-04T16:38:02-04:00</updated>
+    <updated>2026-07-04T16:45:27-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -44,6 +44,9 @@ foreach ($chunk in $chunks) {
 <p>this works assuming that you have 1 prompt per line with \n a line break </p>
 <p>the script will go line by line and make a txt file for each line in the txt file</p>
 <p>put this code above in a txt file, rename the txt file to anything and change the file from samplename.txt to samplename.psl</p>
+<p>$sourceFile = location and name of file to break up into many files</p>
+<p>$delimiter = the way for the code to know when to go to next line</p>
+<p>$splitFilePrefix = folder location and prefix for each new file which will be numbered</p>
 <p>then open powershell in folder with the .\\samplename.ps1 file you created</p>
 <p>and run</p>
 <pre class="language-powershell"><code>.\\samplename.ps1</code></pre>
