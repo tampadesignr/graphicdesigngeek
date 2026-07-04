@@ -3,12 +3,54 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-06-17T18:47:20-04:00</updated>
+    <updated>2026-07-04T16:38:02-04:00</updated>
     <author>
         <name>admin</name>
     </author>
     <id>https://graphicdesigngeek.com</id>
 
+    <entry>
+        <title>make a folder of prompts from a simple txt file</title>
+        <author>
+            <name>admin</name>
+        </author>
+        <link href="https://graphicdesigngeek.com/make-a-folder-of-prompts-from-a-simple-txt-file.html"/>
+        <id>https://graphicdesigngeek.com/make-a-folder-of-prompts-from-a-simple-txt-file.html</id>
+        <media:content url="https://graphicdesigngeek.com/media/posts/3/new-anima-test_832486031203768_00001_.png" medium="image" />
+            <category term="powershell"/>
+
+        <updated>2026-07-04T16:34:02-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://graphicdesigngeek.com/media/posts/3/new-anima-test_832486031203768_00001_.png" alt="" />
+                    $sourceFile = "C:\Users\username\Desktop\text\weird.txt" $delimiter = "\n" $splitFilePrefix = "C:\Users\username\Desktop\weird1\weird_" $counter = 1 $content = Get-Content -Path $sourceFile -Raw $chunks = $content -split $delimiter foreach ($chunk&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://graphicdesigngeek.com/media/posts/3/new-anima-test_832486031203768_00001_.png" class="type:primaryImage" alt="" /></p>
+                <pre class="language-powershell"><code>$sourceFile = "C:\Users\username\Desktop\text\weird.txt"
+$delimiter = "\n"
+$splitFilePrefix = "C:\Users\username\Desktop\weird1\weird_"
+$counter = 1
+$content = Get-Content -Path $sourceFile -Raw
+$chunks = $content -split $delimiter
+
+foreach ($chunk in $chunks) {
+    $fileName = $splitFilePrefix + $counter.ToString("000")+".txt"
+    $chunk | Set-Content -Path $fileName
+    $counter++
+}</code></pre>
+<p>this works assuming that you have 1 prompt per line with \n a line break </p>
+<p>the script will go line by line and make a txt file for each line in the txt file</p>
+<p>put this code above in a txt file, rename the txt file to anything and change the file from samplename.txt to samplename.psl</p>
+<p>then open powershell in folder with the .\\samplename.ps1 file you created</p>
+<p>and run</p>
+<pre class="language-powershell"><code>.\\samplename.ps1</code></pre>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>how to unpin all nodes in comfyui workflow</title>
         <author>
