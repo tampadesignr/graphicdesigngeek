@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-08-11T03:18:39-04:00</updated>
+    <updated>2026-08-11T03:42:05-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -1214,13 +1214,70 @@ None required. Visual generation only.
 
 non_diegetic_music:
 None generated. Final song continues underneath during editing and fades with the image.</code></pre>
+<p>example 9</p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vj3t9h/almost_as_bad_as_the_star_wars_holiday_special/">https://www.reddit.com/r/comfyui/comments/1vj3t9h/almost_as_bad_as_the_star_wars_holiday_special/</a></p>
+<pre class="language-apacheconf"><code> Standard live-action The Big Bang Theory sitcom look: practical television photography style, a sitcom apartment set, basic lens, average depth of field, tv quality recording look, tv studio lighting, standard living room props, sit and stand around acting, with very little walking.
+
+Scene overview: the apartment set from The Big Bang Theory &lt;Picture 2&gt;, the protagonist Sheldon Cooper &lt;Picture 0&gt; sitting on the couch, Luke Skywalker &lt;Picture 1&gt; is sitting left of Sheldon, Sheldon Cooper &lt;Picture 0&gt; complains to Luke &lt;Picture 1&gt;
+
+Storyboard: (each shot is a wide and medium shots of the same set, cuts only when a new character is shown):
+
+[0s-10s] Shot 1: medium shot of Sheldon &lt;Picture 0&gt; and Luke Skywalker &lt;Picture 1&gt; on the couch: Sheldon &lt;Picture 0&gt; is complaining to Luke &lt;Picture 1&gt;. Sheldon Cooper: "I don't know what to tell you Mark, the writing, th-the acting, it was just appauling. It was almost as bad as the Star Wars holiday special." Followed by a laugh track.
+
+Camera: each shot its focused on the stage and actors, always facing the set like it would on any sitcom.
+
+Audio: Tv studio quality. Straight from the Seinfeld tv show.
+
+No text, subtitles, logos or watermarks of any kind, no animation or cartoon rendering, no overly-CG look, keep the classic 90s sitcom live-action texture. </code></pre>
+<p>example 10 - CHARACTER SWAP V2V</p>
+<p><a href="https://app.notion.com/p/CHARACTER-SWAP-V2V-PROMPTS-halo-christo-3b663c2a7548802a8143d3ac8cb23373">https://app.notion.com/p/CHARACTER-SWAP-V2V-PROMPTS-halo-christo-3b663c2a7548802a8143d3ac8cb23373</a></p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/">https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/</a></p>
+<pre class="language-json"><code>SCENE CONTEXT
+Object replacement pass. In &lt;Video_1&gt;, the target object is replaced by the object shown in &lt;Image_1&gt;. Everything else in &lt;Video_1&gt; remains exactly as it is.
+
+ACTIVE REFERENCES
+&lt;Video_1&gt;: the master plate. Camera path, framing, timing, cast, environment, lighting and every other object 100% match &lt;Video_1&gt;.
+&lt;Image_1&gt;: identity of the replacement object only. Its shape, proportion, material, colour, logos and surface markings 100% match &lt;Image_1&gt;, kept legible and correctly oriented throughout. NO MASK
+
+MOTION INHERITANCE
+The replacement object inherits the full behaviour of the object it replaces, frame by frame: same screen position, same scale, same rotation, same motion path, same speed, same entry and exit timing. Whatever the original object did, the new object does identically. No new movement is introduced and none is removed.
+
+INTEGRATION
+Contact reads physically: hands wrap the new silhouette, supporting surfaces meet its actual base, contact shadows land directly beneath it, and any grip conforms to its real geometry.
+Occlusion order is preserved: whatever passed in front of the original object passes in front of the new one, and whatever it covered stays covered.
+Reflections, refractions and cast shadows on nearby surfaces are rebuilt for the new geometry while keeping the same direction and softness as the plate.
+
+OPTICS
+Shot size, FOV, depth of field, focus falloff and motion blur carried over from &lt;Video_1&gt; with no drift. The object sits at the same focal plane as the original.
+
+CAMERA
+Camera behaviour, height, distance, movement and handheld character identical to &lt;Video_1&gt;.
+
+PHYSICS
+Mass, inertia, swing and settle behaviour consistent with the material shown in &lt;Image_1&gt;. Any fluid, spill, dust or particle interaction updates to the new geometry while obeying the same gravity and timing as the plate.
+
+LIGHTING
+Key direction, intensity, falloff and white balance taken from &lt;Video_1&gt;. The object catches the same key from the same side, sits at the same ambient level, and throws a shadow matching the existing shadows in length, direction and softness. Specular highlights appear only where the plate's key light would place them, reading the true surface finish from &lt;Image_1&gt;.
+
+STYLE
+Photoreal, fully integrated into the original plate: same grain structure, same black level, same tonal contrast, same colour grade as &lt;Video_1&gt;.
+
+POSITIVE LOCKS
+
+- Only the target object changes; every other element of &lt;Video_1&gt; stays untouched.
+- The object stays present, complete and correctly scaled in every frame the original appeared in.
+- Identity from &lt;Image_1&gt; holds steady across the whole clip, with no drift in shape, colour or markings.
+- Edges blend seamlessly: matching noise, matching edge softness, no halo, no outline.
+- One continuous plate, cuts only where &lt;Video_1&gt; already cuts.</code></pre>
+<p> </p>
 <p>reddit posts with lots of general info</p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/">https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vknr0v/followup_from_a_5second_clip_to_a_247/">https://www.reddit.com/r/comfyui/comments/1vknr0v/followup_from_a_5second_clip_to_a_247/</a></p>
 <p><a href="https://www.reddit.com/r/NeuralCinema/comments/1vk20gc/minimax_h3_hack_50_reference_or_more/">https://www.reddit.com/r/NeuralCinema/comments/1vk20gc/minimax_h3_hack_50_reference_or_more/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjs1re/is_there_a_nice_place_to_learn_how_to_use_minimax/">https://www.reddit.com/r/comfyui/comments/1vjs1re/is_there_a_nice_place_to_learn_how_to_use_minimax/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjn8i9/minimaxh3_speedup_nodes_is_this_connected/">https://www.reddit.com/r/comfyui/comments/1vjn8i9/minimaxh3_speedup_nodes_is_this_connected/</a></p>
 <p><a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide">https://fal.ai/learn/devs/minimax-h3-prompting-guide</a></p>
-<p> </p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/">https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/</a></p>
 <p>tricks and tips</p>
 <p>about audio::: </p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/">https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/</a></p>
