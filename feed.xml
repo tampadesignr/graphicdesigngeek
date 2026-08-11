@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-08-11T03:42:05-04:00</updated>
+    <updated>2026-08-11T04:54:30-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -1269,15 +1269,288 @@ POSITIVE LOCKS
 - Identity from &lt;Image_1&gt; holds steady across the whole clip, with no drift in shape, colour or markings.
 - Edges blend seamlessly: matching noise, matching edge softness, no halo, no outline.
 - One continuous plate, cuts only where &lt;Video_1&gt; already cuts.</code></pre>
+<p>example 11 - It’s made from 12 separate clips, 15 seconds each, so 3 minutes total. Not audio driven. </p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vi2ole/testing_of_3minute_ai_music_video_rtx_3090_with/">https://www.reddit.com/r/comfyui/comments/1vi2ole/testing_of_3minute_ai_music_video_rtx_3090_with/</a></p>
+<pre class="language-json"><code>A surreal psychedelic cinematic music-video shot. A single glossy electric-blue mouth floats in total darkness, emerging slowly from black as if waking up. Highly detailed wet luminous lips with ultraviolet highlights and liquid-cyan reflections.
+
+The mouth starts almost still and then moves as if singing to an unheard electronic song. Simulate musical rhythm visually: at regular intervals the lips pulse open and closed and each pulse emits a circular cyan soundwave traveling outward through the darkness. Tiny glowing particles shake and react as the waves pass.
+
+Small abstract wireless and Bluetooth-like symbols occasionally flicker around the mouth and dissolve into blue vapor.
+
+Very slow cinematic macro push toward the lips, shallow depth of field, halation, bloom, subtle analog-video texture.
+
+During the final seconds the mouth opens wider, revealing an intense tunnel of blue light inside. The camera accelerates forward and enters the glowing mouth.
+
+End while the camera is traveling into the mouth so the next scene can continue from inside it.
+
+Continue directly from inside the glowing electric-blue mouth. The camera flies forward through a surreal organic tunnel made from glossy lip textures, translucent crystal teeth, liquid membranes and rippling cyan light.
+
+Simulate an electronic musical rhythm visually. Bright pulses travel down the tunnel at repeating intervals. Concentric soundwave rings, spirals and glowing frequency ribbons race along the walls. Tiny wireless symbols drift through the space like bioluminescent insects.
+
+The tunnel stretches, contracts and breathes rhythmically.
+
+The camera moves rapidly forward with smooth banking turns and gentle rolls, maintaining constant momentum.
+
+Near the end the tunnel expands into a vast black void. A gigantic electric-blue mouth floats ahead.
+
+As the camera approaches, that single mouth begins dividing into many identical mouths.
+
+End at the moment the duplication begins.
+
+Begin with the giant blue mouth from the previous scene dividing into dozens of identical glossy electric-blue mouths floating in deep black space like a constellation.
+
+Each mouth behaves like a different musical instrument. Some pulse slowly like bass, others open and close rapidly. Each emits a different visible waveform: circular cyan rings, spirals, jagged crystalline waves, vibrating ribbons and translucent frequency walls.
+
+Where the waves intersect they briefly create luminous geometric flowers, abstract faces and interference patterns.
+
+The camera moves continuously through the constellation in zero gravity, weaving between mouths and passing extremely close to some of them before pulling rapidly into wide views.
+
+Toward the end all mouths suddenly rotate toward the same distant point.
+
+They open together and release one enormous synchronized beam of blue frequency light.
+
+The camera accelerates along the beam.
+
+End as the beam reaches a distant humanoid silhouette.
+
+Begin with the cyan frequency beam from the previous scene reaching an androgynous humanoid figure standing inside a dark surreal nightclub.
+
+The room contains reflective black floors, giant mirrors, ultraviolet fog and isolated cyan lights.
+
+The figure initially has a perfectly smooth face with no mouth.
+
+The incoming beam hits the face and a glossy electric-blue mouth forms there from liquid neon.
+
+Immediately the new mouth begins moving rhythmically as if singing.
+
+Every implied beat produces a powerful visible bass wave expanding through the room. Curtains ripple, mirrors bend elastically, reflections distort and pools of light pulse across the floor.
+
+Camera continuously orbits around the figure, alternating between medium shots and extreme close-ups of the mouth.
+
+The movement becomes increasingly energetic.
+
+During the final seconds a huge soundwave hits a mirror behind the figure. The mirror liquefies into chrome water.
+
+The camera follows the wave directly through the liquid mirror.
+
+End while crossing through it.
+
+Continue through the liquid mirror into an inverted psychedelic chrome-and-blue world.
+
+Two giant glossy electric-blue mouths float facing one another from opposite sides of the frame.
+
+They move rapidly toward each other, trailing long ribbons of cyan waveform light.
+
+They stop only millimeters apart without touching.
+
+Between them the air vibrates violently with visible frequency patterns.
+
+The mouths pulse and move as if harmonizing to an unheard electronic song. Every implied beat compresses the light between them further.
+
+A brilliant sphere of cyan energy gradually forms between the lips, made from waveform lines, liquid light and tiny wireless symbols.
+
+The camera performs a fast continuous orbit around the mouths while moving closer.
+
+At the climax the sphere bursts outward into thousands of miniature glowing blue mouths and fragments.
+
+The camera immediately chooses one tiny falling mouth and dives downward after it.
+
+End while rapidly following the falling mouth.
+
+Follow the miniature blue mouth falling directly out of the previous scene.
+
+It drops through darkness and suddenly enters a surreal nighttime city.
+
+Thousands of tiny glowing electric-blue mouths are falling from the sky like rain.
+
+The camera descends rapidly toward street level and begins flying forward between buildings.
+
+Each mouth opens and closes rhythmically while falling. Whenever one strikes a window, car, rooftop or puddle it generates a glowing circular soundwave.
+
+Streetlights flash rhythmically. Building reflections ripple. Neon signs distort. Puddles produce synchronized frequency patterns.
+
+The camera races low over the wet street, occasionally passing through clouds of falling mouths and narrowly avoiding chrome objects.
+
+As the sequence progresses, the pavement begins turning into electric-blue liquid.
+
+Buildings stretch downward into their own reflections.
+
+The entire city melts into one enormous blue ocean.
+
+End with the camera racing just above the newly formed liquid surface.
+
+Begin directly above the infinite electric-blue liquid ocean created from the melting city.
+
+The camera flies extremely low over the surface at high speed.
+
+Huge glossy blue mouths rise explosively from beneath the water like surreal islands.
+
+Each mouth opens on an implied beat and sends enormous circular waves across the ocean.
+
+The camera banks around the waves, dives between giant lips and skims across the liquid surface while glowing droplets explode upward.
+
+A chrome humanoid figure suddenly appears running across the water.
+
+Every footstep generates luminous frequency rings.
+
+The camera follows beside and behind the figure with aggressive tracking movement.
+
+Ahead, an enormous mouth rises from the ocean and opens.
+
+The water begins rotating into a giant whirlpool shaped like an abstract Bluetooth symbol.
+
+The chrome figure accelerates toward it and is pulled into the vortex.
+
+The camera dives in immediately behind the figure.
+
+End while falling into the whirlpool.
+
+Continue falling through the blue whirlpool.
+
+The chrome figure suddenly splits into two mirrored humanoid bodies suspended in an enormous electric-blue void.
+
+Each body has a glowing blue mouth embedded in the chest where the heart would be.
+
+The bodies orbit each other rapidly.
+
+Their chest-mouths repeatedly open and fire thin cyan waveform lines toward one another.
+
+The connection fails several times, causing sharp visual glitches, duplicate frame echoes and bursts of distorted space.
+
+Simulate rhythmic music visually through repeated connection attempts, pulsing light and synchronized body movement.
+
+The camera revolves around both figures while constantly changing distance, moving from extreme close-ups of the heart-mouths to wide shots of the orbiting bodies.
+
+Finally one bright continuous waveform successfully connects both mouths.
+
+Their movements instantly synchronize.
+
+The cyan connection becomes brighter and thicker until it fills the center of the frame.
+
+The camera accelerates directly into the connecting waveform.
+
+End inside the bright line.
+
+The bright connecting waveform from the previous scene expands around the camera and transforms into an extreme macro view of two electric-blue mouths approaching one another.
+
+The lips are constructed from glossy liquid, pixels, tiny waveform fragments and floating droplets.
+
+The camera moves rapidly around and between them while maintaining extreme macro detail.
+
+As the mouths approach, streams of luminous data begin moving between them.
+
+Tiny landscapes, abstract memories, faces, wireless symbols and pulses of cyan light flow from one mouth into the other.
+
+The mouths never physically collide. Instead they exchange increasingly intense streams of information through the narrow gap between them.
+
+Each implied musical beat causes the lips to pulse, the data stream to surge and the camera to change speed.
+
+The two mouths gradually lose their solid form and dissolve into one enormous shared waveform.
+
+The waveform twists violently into a spiral.
+
+As the camera follows it, the spiral begins forming the petals of a giant electric-blue flower.
+
+End as the flower starts opening.
+
+Continue from the waveform flower opening in the previous scene.
+
+Reveal an enormous psychedelic flower floating in black space, constructed entirely from hundreds of glossy electric-blue mouths.
+
+Every petal is a mouth.
+
+The flower rotates rapidly while different rings of mouths open sequentially, creating visible waves traveling around its circumference.
+
+Each pulse generates cyan frequency ribbons, glowing pollen and expanding geometric mandalas.
+
+The camera spirals aggressively through the flower, diving between petals, rotating around the center and constantly shifting between huge wide shots and extreme macro mouth close-ups.
+
+The rotational speed steadily increases.
+
+The mouth petals stretch into liquid ribbons and the entire flower transforms into an enormous rotating blue mandala.
+
+At the climax every mouth closes simultaneously.
+
+The entire structure collapses rapidly inward.
+
+Everything disappears except one single isolated electric-blue mouth floating in darkness.
+
+The camera brakes suddenly and stops close to it.
+
+End on the lonely mouth.
+
+Begin with the isolated electric-blue mouth floating alone in nearly total darkness.
+
+The atmosphere is quieter but still constantly moving.
+
+The camera slowly circles the mouth while drifting closer and farther away.
+
+The mouth attempts to sing.
+
+Each time it opens, a visible cyan waveform travels outward but quickly breaks apart into digital particles.
+
+The mouth tries repeatedly.
+
+Every failed signal creates analog glitches, transparent duplicates and brief distortions of the surrounding darkness.
+
+The pulses become weaker.
+
+Then a tiny blue signal appears extremely far away.
+
+The camera suddenly changes direction and moves toward the distant light while keeping the mouth visible behind.
+
+The isolated mouth reacts and fires a stronger waveform.
+
+The distant signal answers with another wave.
+
+Both waves race toward each other through the void.
+
+The camera accelerates alongside them.
+
+End one instant before the two signals collide.
+
+Begin exactly before the two cyan signals collide.
+
+They connect and immediately produce an enormous radiant blue shockwave.
+
+The camera is thrown backward at extreme speed.
+
+The entire psychedelic universe from the previous scenes suddenly appears around the camera: hundreds of electric-blue mouths, liquid oceans, chrome bodies, waveform flowers, falling mouth rain, rotating wireless symbols and glowing frequency ribbons.
+
+Everything moves in synchronized rhythmic pulses.
+
+The camera races through the environment, passing between giant mouths, diving through waveform rings, rolling around chrome bodies and skimming above liquid-blue surfaces.
+
+Every implied beat triggers another transformation.
+
+The movement reaches maximum intensity.
+
+Then the camera begins an extremely fast continuous pull backward.
+
+As it moves away, the entire impossible universe becomes smaller.
+
+Eventually reveal that everything we have been seeing exists only as a reflection on the surface of one enormous pair of glossy electric-blue lips floating in black space.
+
+The camera continues pulling back.
+
+The giant lips slowly close.
+
+One final cyan soundwave explodes outward toward the camera, expanding until it fills the entire frame.
+
+The light fades rapidly to pure black.
+
+Hold black for the final second.</code></pre>
 <p> </p>
 <p>reddit posts with lots of general info</p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/">https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/</a></p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vhuorq/45_lower_minimax_h3_sampler_time_with_new/">https://www.reddit.com/r/StableDiffusion/comments/1vhuorq/45_lower_minimax_h3_sampler_time_with_new/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vknr0v/followup_from_a_5second_clip_to_a_247/">https://www.reddit.com/r/comfyui/comments/1vknr0v/followup_from_a_5second_clip_to_a_247/</a></p>
 <p><a href="https://www.reddit.com/r/NeuralCinema/comments/1vk20gc/minimax_h3_hack_50_reference_or_more/">https://www.reddit.com/r/NeuralCinema/comments/1vk20gc/minimax_h3_hack_50_reference_or_more/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjs1re/is_there_a_nice_place_to_learn_how_to_use_minimax/">https://www.reddit.com/r/comfyui/comments/1vjs1re/is_there_a_nice_place_to_learn_how_to_use_minimax/</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjn8i9/minimaxh3_speedup_nodes_is_this_connected/">https://www.reddit.com/r/comfyui/comments/1vjn8i9/minimaxh3_speedup_nodes_is_this_connected/</a></p>
 <p><a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide">https://fal.ai/learn/devs/minimax-h3-prompting-guide</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/">https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/</a></p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vfyiey/universal_minimax_h3_video_prompt_architect_v3/">https://www.reddit.com/r/StableDiffusion/comments/1vfyiey/universal_minimax_h3_video_prompt_architect_v3/</a></p>
 <p>tricks and tips</p>
 <p>about audio::: </p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/">https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/</a></p>
