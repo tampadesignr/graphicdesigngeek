@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-08-11T04:54:30-04:00</updated>
+    <updated>2026-08-11T05:22:02-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -1540,6 +1540,107 @@ One final cyan soundwave explodes outward toward the camera, expanding until it 
 The light fades rapidly to pure black.
 
 Hold black for the final second.</code></pre>
+<p>example 12</p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vgze70/minimax_h3_image_to_video_my_example/">https://www.reddit.com/r/comfyui/comments/1vgze70/minimax_h3_image_to_video_my_example/</a></p>
+<pre class="language-json"><code>Warner Bros cartoon, Wile E. Coyote run back of Beep Beep. Beep beep, running along and doesn't realize where he's going. So Beep Beep ends up crashing into a tree. Then the scene change with Wile E. Coyote is cooking on the barbecue with a single cooked Beep Beep on. He puts it in his mouth, chews it, but makes a disgusted and then spits it out to the side. Then scene change with Wile E. Coyote seen from back is entering in a Mc Donald's restaurant.</code></pre>
+<p>example 13</p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vgqvtu/first_video_attempt_yeah_minmax/">https://www.reddit.com/r/StableDiffusion/comments/1vgqvtu/first_video_attempt_yeah_minmax/</a></p>
+<pre class="language-json"><code>
+    The dwarf from &lt;Picture 1&gt; stands in his original environment. He warms up with a broad, friendly smile, looks directly at the camera, and raises his hand in greeting. He speaks in a friendly but gruff Scottish accent. He finishes speaking, raises his foam topped tankard in greeting, it sloshes around sloppily and drips down the side of the mug. He gives a playful wink to the camera, takes a large drink of the beer, foam soaking into his facial hair realistically. He lowers the mug and lets out a content sigh as holds his smile as the video ends.
+
+    Timeline:
+
+    [0s-1s] The dwarf brightens up, smiles warmly, and raises his hand in greeting.
+
+    [2s-10s] He speaks directly to the audience in a gruff Scottish accent: "Alright, So I've been messing around with that A.I. stuff again. McCoy, you seeing this shit? I was a dragon age screenshot once"
+
+    [10s-12s] He gives a quick, cheerful wink to the camera and raises his sloshing foam topped tankard as if in a minor toast.
+
+    [12s-15s] He takes a large drink of the beer, the foam soaking into to his facial hair where appropriate.
+
+    [15s-18s] He holds his warm smile as the scene smoothly settles to a close.
+
+    Audio: Clear spoken male voice with a distinct Scottish accent, soft movement rustle during the wave, and subtle ambient room tone.
+</code></pre>
+<p>example 14 - Prompt For Multi Character</p>
+<p>Used multiple reference images for each scene.</p>
+<p><a href="https://www.reddit.com/r/comfyui/comments/1vgf9ai/assemble_the_multiverse_minimax_h3_r2v_is_awesome/">https://www.reddit.com/r/comfyui/comments/1vgf9ai/assemble_the_multiverse_minimax_h3_r2v_is_awesome/</a></p>
+<pre class="language-json"><code> 
+subject_definitions:
+
+&lt;Subject 1&gt; is [CHARACTER 1] from &lt;Picture 1&gt;, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.
+
+&lt;Subject 2&gt; is [CHARACTER 2] from &lt;Picture 2&gt;, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.
+
+&lt;Subject 3&gt; is [CHARACTER 3] from &lt;Picture 3&gt;, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.
+
+summary:
+
+[reference generation] A 5-second cinematic multiverse portal arrival. Three characters emerge from a consistent amber-orange portal and take a calm, confident formation.
+
+retention_analysis:
+
+&lt;Subject 1&gt; (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in &lt;Picture 1&gt;.
+
+&lt;Subject 2&gt; (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in &lt;Picture 2&gt;.
+
+&lt;Subject 3&gt; (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in &lt;Picture 3&gt;.
+
+detailed_description:
+
+A 5-second cinematic portal-arrival scene at dusk. One stable medium three-shot, framed from the knees up. No dialogue, no combat, no wide landscape, no camera movement, and no crowd.
+
+Portal continuity: a large circular amber-orange portal stands behind the characters. It has a bright rotating outer ring, a darker transparent centre, floating gold sparks, gentle smoke, and a low resonant hum. Keep its colour, size, brightness, particle density, and rotation speed consistent across every portal-arrival clip.
+
+[Shot 1] &lt;Subject 1&gt; steps through the portal first and takes the centre position with quiet confidence. &lt;Subject 2&gt; emerges on one side, naturally adjusts or lowers any item they are carrying if applicable, then gives a focused glance toward the unseen distance. &lt;Subject 3&gt; walks through last, takes position on the opposite side, and calmly surveys the scene. The three hold a poised, united stance as the portal flickers and golden particles drift around them. Their expressions and body language remain confident and appropriate to their individual character identities.
+
+overall_soundscape:
+
+Low portal hum, soft wind, subtle movement from clothing or equipment, and drifting golden sparks. No speech.
+
+non_diegetic_music:
+
+A restrained cinematic rise builds across the shot and resolves on a calm, confident note.
+
+Prompt For single characters:
+subject_definitions:
+
+&lt;Subject 1&gt; is [CHARACTER] from &lt;Picture 1&gt;, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.
+
+summary:
+
+[reference generation] A 5-second cinematic multiverse portal arrival. One character walks through a consistent amber-orange portal, then takes a confident action stance with a subtle grin.
+
+retention_analysis:
+
+&lt;Subject 1&gt; (appears in [Shot 1] and [Shot 2]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in &lt;Picture 1&gt;.
+
+detailed_description:
+
+A 5-second cinematic portal-arrival scene at dusk. No dialogue, no crowd, no wide landscape, and no combat.
+
+Portal continuity: a large circular amber-orange portal stands behind &lt;Subject 1&gt;. It has a bright fiery rotating outer ring, a darker transparent centre, floating gold sparks, gentle smoke, and a low resonant hum. Keep its colour, size, brightness, particle density, and rotation speed consistent across every portal-arrival clip.
+
+[Shot 1] Medium knee-up shot. &lt;Subject 1&gt; walks steadily through the portal toward the camera, then comes to a composed stop. Their costume, silhouette, movement style, and any character-specific accessories remain fully consistent with &lt;Picture 1&gt;. Golden sparks drift around them as the portal flickers behind.
+
+[Shot 2] Close-up of &lt;Subject 1&gt;. They shift into a distinctive, character-appropriate action stance, looking directly ahead with calm confidence. Their expression changes into a subtle smile and restrained grin. Keep the movement natural and controlled, with no exaggerated facial distortion. The portal remains softly visible and out of focus in the background.
+
+overall_soundscape:
+
+Low portal hum, soft wind, subtle movement from clothing or equipment, and drifting golden sparks. No speech.
+
+non_diegetic_music:
+
+A restrained cinematic rise builds through the entrance and resolves as &lt;Subject 1&gt; holds the final stance.</code></pre>
+<p>example 15 - using a small black image as first frame</p>
+<p>tip - writing a prompt and inputting an image as the last frame. However, the default workflow seemed to always require a first frame. So, I used a small black image as the first frame; this time, it worked.</p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vl3uu4/minimax_h3_testing_l2va_moon_landing/">https://www.reddit.com/r/StableDiffusion/comments/1vl3uu4/minimax_h3_testing_l2va_moon_landing/</a></p>
+<pre class="language-json"><code> integrated_multimodal_description: Time-lapsed, cinematic, a medium-wide shot of a film set in a large indoor studio which is used to shoot a scene of moon landing involving lunar module, US flag and an astronaut. At 00:00.000 the camera shows an empty, sterile white studio room, with recognizable vertical wand in the back and horizontal floor at its bottom. At 00:01.000 Some film crews install a black wand into the studio's vertical wand. The black wand has some tiny white shining points which represent stars. At 00:02.000 Some workers fill the studio's floor with some dirty-white sand, gravels and small rocks and form a barren lunar landscape. At 00:03.000 Some film crews bring an Apollo Lunar Module and place it into the left side of the scene. At 00:04.000 A film crew places a US flag with pole on the right side of the scene. Another film crew puts a picture of the Earth as the blue planet, partially blacked on its bottom side, on the top right corner of the scene. At 00:05:000 An astronaut walks in into the scene, goes into the middle of the scene, faces to viewer and waves his hand. At 00:07:000 The whole scene settles into the exact arrangement, position of subject and objects, camera angle, lighting, and final composition established by &lt;Picture 1&gt;. A male deep voice of the director (S1) says, &lt;d&gt;[English] Cut!&lt;/d&gt;
+
+overall_soundscape:
+
+non_diegetic_music: Sustained violin notes at a very fast tempo with spaced piano tones. </code></pre>
+<p> </p>
 <p> </p>
 <p>reddit posts with lots of general info</p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/">https://www.reddit.com/r/comfyui/comments/1vinc36/testing_character_swap_with_minimax_h3/</a></p>
@@ -1551,6 +1652,7 @@ Hold black for the final second.</code></pre>
 <p><a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide">https://fal.ai/learn/devs/minimax-h3-prompting-guide</a></p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/">https://www.reddit.com/r/comfyui/comments/1vj8nyp/forcing_minimax_h3_to_generate_multispeaker/</a></p>
 <p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vfyiey/universal_minimax_h3_video_prompt_architect_v3/">https://www.reddit.com/r/StableDiffusion/comments/1vfyiey/universal_minimax_h3_video_prompt_architect_v3/</a></p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vh2p4z/minimax_reference_method_try_this_setting_instead/">https://www.reddit.com/r/StableDiffusion/comments/1vh2p4z/minimax_reference_method_try_this_setting_instead/</a></p>
 <p>tricks and tips</p>
 <p>about audio::: </p>
 <p><a href="https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/">https://www.reddit.com/r/comfyui/comments/1vjbyqk/minimax_is_nutso/</a></p>
