@@ -3,7 +3,7 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-08-11T05:38:43-04:00</updated>
+    <updated>2026-08-11T05:57:22-04:00</updated>
     <author>
         <name>admin</name>
     </author>
@@ -23,13 +23,23 @@
         <updated>2026-08-11T01:51:01-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                    a visual study of different setups https://jo-nike.github.io/h3-turbo-eval/index.html --- prompt guides.. T2V/I2V/FL2VA/L2VA guide: https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md Ref2V guide: https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md Bonus - Model built in Skills Guide: https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills roles&hellip;
+                    a visual study of different setups 1: https://jo-nike.github.io/h3-turbo-eval/index.html 2: https://dawidope.github.io/model-comparison/ or https://www.reddit.com/r/StableDiffusion/comments/1vksju3/minimaxh3_local_benchmark_six_optimization_stacks/ --- prompt guides.. T2V/I2V/FL2VA/L2VA guide: https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md Ref2V guide: https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md Bonus - Model built in Skills&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>a visual study of different setups</p>
-<p><a href="https://jo-nike.github.io/h3-turbo-eval/index.html">https://jo-nike.github.io/h3-turbo-eval/index.html</a></p>
+<p>1: <a href="https://jo-nike.github.io/h3-turbo-eval/index.html">https://jo-nike.github.io/h3-turbo-eval/index.html</a></p>
+<p>2: <a rpl="" class="relative pointer-events-auto a
+  
+  
+  
+  
+  underline
+  
+  cursor-pointer" href="https://dawidope.github.io/model-comparison/" rel="noopener nofollow ugc" target="_blank">https://dawidope.github.io/model-comparison/</a></p>
+<p>or</p>
+<p><a href="https://www.reddit.com/r/StableDiffusion/comments/1vksju3/minimaxh3_local_benchmark_six_optimization_stacks/">https://www.reddit.com/r/StableDiffusion/comments/1vksju3/minimaxh3_local_benchmark_six_optimization_stacks/</a></p>
 <p>---</p>
 <p>prompt guides..</p>
 <p>T2V/I2V/FL2VA/L2VA guide: <a rpl="" class="relative pointer-events-auto a
