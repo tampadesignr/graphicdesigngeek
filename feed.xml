@@ -3,12 +3,33 @@
     <title>graphicdesigngeek.com</title>
     <link href="https://graphicdesigngeek.com/feed.xml" rel="self" />
     <link href="https://graphicdesigngeek.com" />
-    <updated>2026-08-13T09:20:22-04:00</updated>
+    <updated>2026-08-14T03:19:28-04:00</updated>
     <author>
         <name>admin</name>
     </author>
     <id>https://graphicdesigngeek.com</id>
 
+    <entry>
+        <title>How to install the triton package for comfyui portable</title>
+        <author>
+            <name>admin</name>
+        </author>
+        <link href="https://graphicdesigngeek.com/how-to-install-the-triton-package-for-comfyui-portable.html"/>
+        <id>https://graphicdesigngeek.com/how-to-install-the-triton-package-for-comfyui-portable.html</id>
+            <category term="comfyui"/>
+
+        <updated>2026-08-14T03:19:20-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    To install the Triton package for ComfyUI Portable, open a terminal in your ComfyUI folder and run the command: .\python_embeded\python.exe -m pip install -U triton-windows.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>To install the <span class="font-semibold" data-streamdown="strong">Triton package for ComfyUI Portable</span>, open a terminal in your ComfyUI folder and run the command: <code class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm" data-streamdown="inline-code">.\python_embeded\python.exe -m pip install -U triton-windows</code>. Make sure to remove any previously installed version of Triton first with <code class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm" data-streamdown="inline-code">.\python_embeded\python.exe -m pip uninstall triton</code></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>minimax helpful information</title>
         <author>
@@ -2920,59 +2941,6 @@ Painting: A richly layered illustration style built on confident brushwork that 
 	Thick Brushstrokes Painting: A richly physical painting style built on visible, confident strokes carrying real textural weight and directional energy across the entire composition, dense, impasto-like pigment application replacing any smooth or blended transition, dramatic value contrast doing the heavy lifting instead of fine linework, loose, expressive edges that dissolve detail in favor of gestural conviction, and a raw, emotive intensity that celebrates the physical mark of the brush over polished precision. Influenced by: John Singer Sargent, Vincent van Gogh, impasto brushwork technique, alla prima oil-painting method.
 	Impasto: A richly physical painting style built on thickly applied pigment that stands proud from the working surface, ridges and peaks of dried medium catching real directional light with sculptural dimensionality, confident, decisive strokes carrying visible weight and texture across the entire composition, dramatic tactile depth replacing smooth blending or flat coverage entirely, and a raw, sculptural painterly intensity that celebrates the physical presence of pigment itself. Influenced by: Vincent van Gogh, Lucian Freud, impasto oil-painting technique, expressive thick-pigment method.</code></pre>
 <p>https://www.reddit.com/r/StableDiffusion/comments/1uzdj7o/krea_2_styles_wildcards_txt/</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Getting prompt or ComfyUI workflow from posted images on Reddit</title>
-        <author>
-            <name>admin</name>
-        </author>
-        <link href="https://graphicdesigngeek.com/getting-prompt-or-comfyui-workflow-from-posted-images-on-reddit.html"/>
-        <id>https://graphicdesigngeek.com/getting-prompt-or-comfyui-workflow-from-posted-images-on-reddit.html</id>
-
-        <updated>2026-07-05T04:04:08-04:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    Reddit doesn't actually remove PNG metadata from posted images, but it is a bit tricky to access. By default if you download a posted image,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Reddit doesn't actually remove PNG metadata from posted images, but it is a bit tricky to access. By default if you download a posted image, you will get a WEBP file without generation metadata or workflow. Below is a way to download the original PNG, which may contain e.g. ComfyUI workflow.</p>
-<ol>
-<li>
-<p>Click on the image to open it as bigger</p>
-</li>
-<li>
-<p>Right click image</p>
-</li>
-<li>
-<p>Open image in new tab</p>
-</li>
-<li>
-<p>Put focus to the browser page address</p>
-</li>
-<li>
-<p>Change the "preview.redd.it" part to "i.redd.it" in the URL, press Enter.</p>
-</li>
-<li>
-<p>Right click image</p>
-</li>
-<li>
-<p>Save image as...</p>
-</li>
-<li>
-<p>If the original posted file was a PNG, you should get a PNG file downloaded instead of WEBP</p>
-</li>
-<li>
-<p>Drag the PNG to ComfyUI, if it was generated with ComfyUI you should get the image workflow opened</p>
-</li>
-</ol>
-<p>If the image was AI generated but not in ComfyUI, you could still get the prompt with some tool that is able to read PNG metadata. E.g. Automatic1111 and Forge have the "PNG Info" tab where you can drag an image to get the prompt if it's included. There probably is some ComfyUI node for it too, I just haven't seen one.</p>
-<p>This doesn't always work, e.g. if the user has edited the image in any way after generation, the metadata will usually be lost.</p>
-<p>I've seen people mention this method in comments but haven't seen a separate post about it, so hopefully it will help someone.</p>
-<p>https://www.reddit.com/r/StableDiffusion/comments/1unls4m/krea_2_things_that_shouldnt_exist_but_somehow_do/</p>
             ]]>
         </content>
     </entry>

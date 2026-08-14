@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://graphicdesigngeek.com/how-to-install-the-triton-package-for-comfyui-portable.html",
+            "url": "https://graphicdesigngeek.com/how-to-install-the-triton-package-for-comfyui-portable.html",
+            "title": "How to install the triton package for comfyui portable",
+            "summary": "To install the Triton package for ComfyUI Portable, open a terminal in your ComfyUI folder and run the command: .\\python_embeded\\python.exe -m pip install -U triton-windows.",
+            "content_html": "<p>To install the <span class=\"font-semibold\" data-streamdown=\"strong\">Triton package for ComfyUI Portable</span>, open a terminal in your ComfyUI folder and run the command: <code class=\"rounded bg-muted px-1.5 py-0.5 font-mono text-sm\" data-streamdown=\"inline-code\">.\\python_embeded\\python.exe -m pip install -U triton-windows</code>. Make sure to remove any previously installed version of Triton first with <code class=\"rounded bg-muted px-1.5 py-0.5 font-mono text-sm\" data-streamdown=\"inline-code\">.\\python_embeded\\python.exe -m pip uninstall triton</code></p>",
+            "author": {
+                "name": "admin"
+            },
+            "tags": [
+                   "comfyui"
+            ],
+            "date_published": "2026-08-14T03:19:20-04:00",
+            "date_modified": "2026-08-14T03:19:28-04:00"
+        },
+        {
             "id": "https://graphicdesigngeek.com/minimax-helpful-information.html",
             "url": "https://graphicdesigngeek.com/minimax-helpful-information.html",
             "title": "minimax helpful information",
@@ -146,20 +161,6 @@
             ],
             "date_published": "2026-07-17T19:03:15-04:00",
             "date_modified": "2026-08-11T05:38:43-04:00"
-        },
-        {
-            "id": "https://graphicdesigngeek.com/getting-prompt-or-comfyui-workflow-from-posted-images-on-reddit.html",
-            "url": "https://graphicdesigngeek.com/getting-prompt-or-comfyui-workflow-from-posted-images-on-reddit.html",
-            "title": "Getting prompt or ComfyUI workflow from posted images on Reddit",
-            "summary": "Reddit doesn't actually remove PNG metadata from posted images, but it is a bit tricky to access. By default if you download a posted image,&hellip;",
-            "content_html": "<p>Reddit doesn't actually remove PNG metadata from posted images, but it is a bit tricky to access. By default if you download a posted image, you will get a WEBP file without generation metadata or workflow. Below is a way to download the original PNG, which may contain e.g. ComfyUI workflow.</p>\n<ol>\n<li>\n<p>Click on the image to open it as bigger</p>\n</li>\n<li>\n<p>Right click image</p>\n</li>\n<li>\n<p>Open image in new tab</p>\n</li>\n<li>\n<p>Put focus to the browser page address</p>\n</li>\n<li>\n<p>Change the \"preview.redd.it\" part to \"i.redd.it\" in the URL, press Enter.</p>\n</li>\n<li>\n<p>Right click image</p>\n</li>\n<li>\n<p>Save image as...</p>\n</li>\n<li>\n<p>If the original posted file was a PNG, you should get a PNG file downloaded instead of WEBP</p>\n</li>\n<li>\n<p>Drag the PNG to ComfyUI, if it was generated with ComfyUI you should get the image workflow opened</p>\n</li>\n</ol>\n<p>If the image was AI generated but not in ComfyUI, you could still get the prompt with some tool that is able to read PNG metadata. E.g. Automatic1111 and Forge have the \"PNG Info\" tab where you can drag an image to get the prompt if it's included. There probably is some ComfyUI node for it too, I just haven't seen one.</p>\n<p>This doesn't always work, e.g. if the user has edited the image in any way after generation, the metadata will usually be lost.</p>\n<p>I've seen people mention this method in comments but haven't seen a separate post about it, so hopefully it will help someone.</p>\n<p>https://www.reddit.com/r/StableDiffusion/comments/1unls4m/krea_2_things_that_shouldnt_exist_but_somehow_do/</p>",
-            "author": {
-                "name": "admin"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-07-05T04:04:08-04:00",
-            "date_modified": "2026-07-05T04:05:12-04:00"
         }
     ]
 }
